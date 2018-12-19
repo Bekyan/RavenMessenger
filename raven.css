@@ -1,0 +1,11 @@
+@keyframes ravenFlight {
+  0% {left:0px}
+  100% {left:10000px; display:none}
+}
+
+.ravenFlight{
+  animation: ravenFlight 3s;
+  position: relative;
+  animation-delay: 1s;
+  animation-fill-mode: forwards;
+}
